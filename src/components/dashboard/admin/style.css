@@ -1,0 +1,55 @@
+.admin-container {
+  width: 100%;
+  display: inline;
+  background-color: #ffffff;
+  margin: 20px 20px 15px 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+/* Add these styles to your "style.css" file */
+.Ak {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center items in the container */
+  margin-bottom: 20px; /* Add some spacing below the search elements */
+}
+
+.Ak input[type="text"] {
+  padding: 5px; /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Set the width of the input field as desired */
+}
+
+.Ak button {
+  padding: 5px 10px; /* Adjust padding as needed */
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Ak select {
+  padding: 5px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 150px; /* Set the width of the select element as desired */
+}
+
+
+.admin-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 2000px) {
+  .admin-container {
+    width: 100%;
+  }
+}
+
